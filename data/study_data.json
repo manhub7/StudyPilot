@@ -1,5 +1,12 @@
 {
-  "quiz_attempts": [],
+  "quiz_attempts": [
+    {
+      "score": 3,
+      "total": 5,
+      "difficulty": "Medium",
+      "date": "2026-09-28T12:51:59.017835"
+    }
+  ],
   "flashcard_reviews": [],
   "study_plans": [
     {
@@ -86,6 +93,12 @@
       "pages": 8,
       "chunks": 16,
       "date": "2026-09-28T12:46:54.088412"
+    },
+    {
+      "filename": "course-notes-roman-urdu.pdf",
+      "pages": 8,
+      "chunks": 16,
+      "date": "2026-09-28T12:51:11.642532"
     }
   ]
 }
