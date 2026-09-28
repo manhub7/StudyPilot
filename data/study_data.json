@@ -1,6 +1,91 @@
 {
   "quiz_attempts": [],
   "flashcard_reviews": [],
-  "study_plans": [],
-  "documents": []
+  "study_plans": [
+    {
+      "plan": {
+        "summary": "This concise 5\u2011day study plan covers the core data\u2011visualization concepts from the course notes, including data preprocessing, string parsing, groupby aggregation, bar plots, heatmaps, regression plots, categorical visualizations, and interactive charts with Plotly and Cufflinks. Each day focuses on a specific theme and provides actionable tasks to reinforce learning within a 60\u2011minute study block.",
+        "schedule": [
+          {
+            "day": "Day 1",
+            "focus": "Data Overview & String Parsing",
+            "tasks": [
+              "Load the IPL 2022 dataset and inspect its shape and columns with df.info() and df.shape.",
+              "Check for missing values and convert the 'Best Bowling Figure' column from strings like '3--20' to integer wickets using lambda and .apply().",
+              "Group by 'Best Bowling' and compute the sum of 'Highest Wickets' to identify top wicket\u2011takers."
+            ],
+            "minutes": 60
+          },
+          {
+            "day": "Day 2",
+            "focus": "Bar Plots & Team Wins",
+            "tasks": [
+              "Use value_counts() on the 'Match Winner' column to get win counts per team.",
+              "Create a horizontal bar plot with Matplotlib\u2019s plt.barh() to display team win totals.",
+              "Interpret the plot and note which team leads the season."
+            ],
+            "minutes": 60
+          },
+          {
+            "day": "Day 3",
+            "focus": "Heatmaps & Correlation",
+            "tasks": [
+              "Calculate the correlation matrix of numeric columns with df.corr().",
+              "Plot a heatmap using Seaborn\u2019s sns.heatmap() with annot=True to show exact correlation values.",
+              "Identify strong positive or negative relationships and consider their implications."
+            ],
+            "minutes": 60
+          },
+          {
+            "day": "Day 4",
+            "focus": "Regression & Scatter Plots",
+            "tasks": [
+              "Generate a scatter plot with a regression line using sns.lmplot() for two continuous variables (e.g., total_bill vs. tip).",
+              "Adjust hue and markers to differentiate categories.",
+              "Interpret the slope and R\u00b2 to understand the linear relationship."
+            ],
+            "minutes": 60
+          },
+          {
+            "day": "Day 5",
+            "focus": "Interactive Charts with Plotly & Cufflinks",
+            "tasks": [
+              "Convert a static Matplotlib bar plot to an interactive Plotly chart using df.iplot() via Cufflinks.",
+              "Add hover information and enable zoom/pan features.",
+              "Export the interactive chart to an HTML file for sharing."
+            ],
+            "minutes": 60
+          }
+        ],
+        "tips": [
+          "Use a Jupyter notebook to combine code, visualizations, and markdown notes in one place.",
+          "After each task, write a brief reflection on what you learned and any questions that arise.",
+          "Keep a running log of the commands you run; this will help you reproduce results and debug later.",
+          "Schedule short breaks during the 60\u2011minute block to maintain focus.",
+          "Review the previous day\u2019s work before starting a new topic to reinforce retention."
+        ]
+      },
+      "date": "2026-09-28T12:48:16.906932"
+    }
+  ],
+  "documents": [
+    {
+      "filename": "course-notes-roman-urdu.pdf",
+      "pages": 8,
+      "chunks": 16,
+      "date": "2026-09-28T12:36:25.526612"
+    },
+    {
+      "filename": "course-notes-roman-urdu.pdf",
+      "pages": 8,
+      "chunks": 16,
+      "date": "2026-09-28T12:43:24.783182"
+    },
+    {
+      "filename": "course-notes-roman-urdu.pdf",
+      "pages": 8,
+      "chunks": 16,
+      "date": "2026-09-28T12:46:54.088412"
+    }
+  ]
 }

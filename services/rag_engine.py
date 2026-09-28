@@ -53,8 +53,6 @@ class RAGEngine:
         indexes = scores.argsort()[::-1]
         results = []
         for i in indexes[:top_k]:
-            if scores[i] <= 0:
-                continue
             item = self.chunks[i].copy()
             item['score'] = float(scores[i])
             results.append(item)
