@@ -1,6 +1,6 @@
-# StudyRAG — AI PDF Study Assistant
+# StudyPilot — AI PDF Study Assistant
 
-StudyRAG is a beginner-friendly Retrieval-Augmented Generation (RAG) study app. Upload a text-based PDF, retrieve relevant passages with TF-IDF, and use Groq to study through an AI Tutor, quizzes, flashcards, progress tracking, and study plans.
+StudyPilot is a beginner-friendly Retrieval-Augmented Generation (RAG) study app. Upload a text-based PDF, retrieve relevant passages with TF-IDF, and use Groq to study through an AI Tutor, quizzes, flashcards, progress tracking, and study plans.
 
 ## Features
 
@@ -18,7 +18,7 @@ StudyRAG is a beginner-friendly Retrieval-Augmented Generation (RAG) study app. 
 ## Project structure
 
 ```text
-StudyRAG_Expanded/
+StudyPilot/
 ├── app.py
 ├── config.py
 ├── requirements.txt

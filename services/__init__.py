@@ -1,1 +1,1 @@
-# StudyRAG service package
+# StudyPilot service package

@@ -5,6 +5,18 @@
       "total": 5,
       "difficulty": "Medium",
       "date": "2026-09-28T12:51:59.017835"
+    },
+    {
+      "score": 2,
+      "total": 5,
+      "difficulty": "Medium",
+      "date": "2026-09-28T13:03:15.108771"
+    },
+    {
+      "score": 3,
+      "total": 5,
+      "difficulty": "Medium",
+      "date": "2026-09-28T13:11:40.053507"
     }
   ],
   "flashcard_reviews": [],
@@ -73,6 +85,254 @@
         ]
       },
       "date": "2026-09-28T12:48:16.906932"
+    },
+    {
+      "plan": {
+        "summary": "This 20\u2011day plan builds on the data\u2011visualization and pandas skills from the PDF to give you a solid foundation in machine learning. Each day you\u2019ll spend one hour reviewing theory, coding key concepts, and applying them to small projects, progressing from data preprocessing to regression, classification, evaluation, and model deployment.",
+        "schedule": [
+          {
+            "day": "2026-09-01",
+            "focus": "Data preprocessing fundamentals",
+            "tasks": [
+              "Read PDF sections on data cleaning and string parsing",
+              "Practice pandas .apply() and .astype() on a sample dataset",
+              "Write a short script to handle missing values"
+            ],
+            "minutes": 60
+          },
+          {
+            "day": "2026-09-02",
+            "focus": "Feature engineering & scaling",
+            "tasks": [
+              "Explore feature extraction from text columns",
+              "Apply sklearn StandardScaler and MinMaxScaler",
+              "Plot feature distributions with seaborn"
+            ],
+            "minutes": 60
+          },
+          {
+            "day": "2026-09-03",
+            "focus": "Correlation analysis",
+            "tasks": [
+              "Compute correlation matrix with df.corr()",
+              "Create a heatmap using seaborn",
+              "Interpret positive/negative relationships"
+            ],
+            "minutes": 60
+          },
+          {
+            "day": "2026-09-04",
+            "focus": "Linear regression theory",
+            "tasks": [
+              "Study the math behind least squares",
+              "Read seaborn lmplot example from PDF",
+              "Implement simple linear regression with sklearn"
+            ],
+            "minutes": 60
+          },
+          {
+            "day": "2026-09-05",
+            "focus": "Multiple linear regression",
+            "tasks": [
+              "Add multiple features to the regression model",
+              "Use sklearn's LinearRegression",
+              "Evaluate R\u00b2 and residuals"
+            ],
+            "minutes": 60
+          },
+          {
+            "day": "2026-09-06",
+            "focus": "Model evaluation metrics",
+            "tasks": [
+              "Learn MAE, MSE, RMSE, R\u00b2",
+              "Apply metrics to regression model",
+              "Plot residuals"
+            ],
+            "minutes": 60
+          },
+          {
+            "day": "2026-09-07",
+            "focus": "Classification basics",
+            "tasks": [
+              "Understand logistic regression concept",
+              "Implement logistic regression on a binary dataset",
+              "Plot decision boundary with seaborn"
+            ],
+            "minutes": 60
+          },
+          {
+            "day": "2026-09-08",
+            "focus": "Evaluation of classifiers",
+            "tasks": [
+              "Compute accuracy, precision, recall, F1",
+              "Plot ROC curve",
+              "Use sklearn.metrics"
+            ],
+            "minutes": 60
+          },
+          {
+            "day": "2026-09-09",
+            "focus": "Cross\u2011validation",
+            "tasks": [
+              "Learn k\u2011fold CV",
+              "Apply cross_val_score to regression and classification",
+              "Interpret variance in scores"
+            ],
+            "minutes": 60
+          },
+          {
+            "day": "2026-09-10",
+            "focus": "Model selection",
+            "tasks": [
+              "Compare models (LR vs. KNN vs. Decision Tree)",
+              "Use GridSearchCV for hyperparameter tuning",
+              "Record best parameters"
+            ],
+            "minutes": 60
+          },
+          {
+            "day": "2026-09-11",
+            "focus": "Pipeline creation",
+            "tasks": [
+              "Build sklearn Pipeline with preprocessing and estimator",
+              "Test pipeline on a dataset",
+              "Save pipeline with joblib"
+            ],
+            "minutes": 60
+          },
+          {
+            "day": "2026-09-12",
+            "focus": "Regularization techniques",
+            "tasks": [
+              "Study L1 and L2 regularization",
+              "Apply Ridge and Lasso to regression",
+              "Compare coefficient shrinkage"
+            ],
+            "minutes": 60
+          },
+          {
+            "day": "2026-09-13",
+            "focus": "Decision trees & ensembles",
+            "tasks": [
+              "Train DecisionTreeRegressor and RandomForestRegressor",
+              "Visualize tree structure",
+              "Evaluate feature importance"
+            ],
+            "minutes": 60
+          },
+          {
+            "day": "2026-09-14",
+            "focus": "Support Vector Machines",
+            "tasks": [
+              "Understand kernel trick",
+              "Train SVM for regression and classification",
+              "Tune C and gamma parameters"
+            ],
+            "minutes": 60
+          },
+          {
+            "day": "2026-09-15",
+            "focus": "Unsupervised learning basics",
+            "tasks": [
+              "Explore k\u2011means clustering",
+              "Apply to a toy dataset",
+              "Visualize clusters with seaborn"
+            ],
+            "minutes": 60
+          },
+          {
+            "day": "2026-09-16",
+            "focus": "Dimensionality reduction",
+            "tasks": [
+              "Learn PCA concepts",
+              "Apply PCA to reduce features",
+              "Plot explained variance"
+            ],
+            "minutes": 60
+          },
+          {
+            "day": "2026-09-17",
+            "focus": "Model deployment concepts",
+            "tasks": [
+              "Create a simple Flask API for a trained model",
+              "Test API with curl",
+              "Document deployment steps"
+            ],
+            "minutes": 60
+          },
+          {
+            "day": "2026-09-18",
+            "focus": "Review & practice",
+            "tasks": [
+              "Revisit challenging topics from PDF",
+              "Solve 3 practice problems on regression and classification",
+              "Refactor code for clarity"
+            ],
+            "minutes": 60
+          },
+          {
+            "day": "2026-09-19",
+            "focus": "Mock exam simulation",
+            "tasks": [
+              "Take a timed practice quiz covering all topics",
+              "Analyze mistakes",
+              "Plan final review"
+            ],
+            "minutes": 60
+          },
+          {
+            "day": "2026-09-20",
+            "focus": "Final review & rest",
+            "tasks": [
+              "Quick recap of key formulas",
+              "Light coding exercise",
+              "Prepare study notes for exam day"
+            ],
+            "minutes": 60
+          }
+        ],
+        "tips": [
+          "Allocate 5\u2011minute warm\u2011up before coding to outline steps; use Jupyter notebooks for interactive experiments; keep a log of errors and fixes to reinforce learning; schedule short breaks during the hour to maintain focus; review PDF visual examples to solidify concepts."
+        ]
+      },
+      "date": "2026-09-28T13:06:46.974396"
+    },
+    {
+      "plan": {
+        "summary": "The PDF offers a comprehensive narrative of Salah ad\u2011Din al\u2011Ayubi\u2019s military and political achievements, centering on his decisive conquest of Edessa and its far\u2011reaching consequences for both Muslim and Christian realms. It details Zangi\u2019s suppression of the Edessa conspiracy, the maturation of the Jihad movement, Crusader strategies and alliances with Western Europe, the Muslim response to Crusader incursions, and the pivotal siege of Alexandria. The text also touches on economic motivations of European merchants and the broader socio\u2011political context of the 12th\u201113th centuries.",
+        "schedule": [
+          {
+            "day": "2026-09-28",
+            "focus": "Conquest of Edessa & Crusader strategies",
+            "tasks": [
+              "Read page 131 \u2013 note key events of the Edessa conspiracy and its suppression by Zangi",
+              "Summarize the political and military consequences of the conquest",
+              "Create flashcards for terms: Zangi, Edessa, Jihad, Crusader",
+              "Review the timeline of events from 1190\u20111200"
+            ],
+            "minutes": 60
+          },
+          {
+            "day": "2026-09-28",
+            "focus": "Muslim responses & Crusader alliances",
+            "tasks": [
+              "Read pages 33, 154, 66, 226, 43 \u2013 extract main points on colonialist influence, Crusader alliances, Alexandria siege, and economic motives",
+              "Draft a mind\u2011map linking Crusader strategies to Muslim responses",
+              "Identify and list key dates and figures mentioned",
+              "Rehearse the summary aloud to reinforce memory"
+            ],
+            "minutes": 60
+          }
+        ],
+        "tips": [
+          "Use active recall by testing yourself on flashcard content after each reading session",
+          "Apply spaced repetition: review flashcards at increasing intervals (e.g., 1h, 4h, 24h)",
+          "Summarize each page in your own words to ensure comprehension",
+          "Create a timeline of events to visualize cause\u2011effect relationships",
+          "Stay hydrated and take short 5\u2011minute breaks to maintain focus"
+        ]
+      },
+      "date": "2026-09-28T13:13:24.623873"
     }
   ],
   "documents": [
@@ -99,6 +359,18 @@
       "pages": 8,
       "chunks": 16,
       "date": "2026-09-28T12:51:11.642532"
+    },
+    {
+      "filename": "course-notes-roman-urdu.pdf",
+      "pages": 8,
+      "chunks": 16,
+      "date": "2026-09-28T13:02:38.223095"
+    },
+    {
+      "filename": "The Biography of Salah ad-Deen al-Ayubi Crusades prior to the Rise of the Ayubid State (as-Sallaabee) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "pages": 277,
+      "chunks": 700,
+      "date": "2026-09-28T13:10:38.588947"
     }
   ]
 }

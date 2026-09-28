@@ -26,7 +26,7 @@ class StudyPlanService:
             f'Exam date: {exam_date}\nHours per day: {hours}\nStudent goals: {goals}\nPDF CONTEXT:\n{context}',
             0.2,
         )
-        data = self.ai._extract_json(raw)
+        data = self.ai.ask_json(system, f'Exam date: {exam_date}\nHours per day: {hours}\nStudent goals: {goals}\nPDF CONTEXT:\n{context}', 0.2)
         if not isinstance(data, dict):
             raise ValueError('The AI returned an invalid study plan.')
         return data
