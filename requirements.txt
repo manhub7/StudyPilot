@@ -1,0 +1,5 @@
+Flask
+groq
+pypdf
+scikit-learn
+python-dotenv

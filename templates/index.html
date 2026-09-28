@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyRAG — AI PDF Study Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="home-page">
+
+<nav>
+    <a class="brand" href="/">Study<span>RAG</span></a>
+    <div class="navlinks">
+        <a href="/dashboard">Dashboard</a>
+        <a href="/tutor">Tutor</a>
+        <a href="/quiz">Quiz</a>
+        <a href="/flashcards">Flashcards</a>
+        <a href="/progress">Progress</a>
+        <a href="/study-plan">Study Plan</a>
+    </div>
+</nav>
+
+<main class="container">
+    <section class="hero home-hero">
+        <div class="pill">AI-POWERED LEARNING</div>
+        <h1>Turn your study material into an <span>AI study copilot.</span></h1>
+        <p>Upload lecture notes, textbooks, assignments or study material. Ask questions, generate quizzes and flashcards, track your progress, and build a study plan.</p>
+    </section>
+
+    <section class="home-grid">
+        <section class="card home-upload">
+            <div class="home-upload-heading">
+                <div>
+                    <div class="section-kicker">STEP 1</div>
+                    <h2>Study Material</h2>
+                    <p class="muted">Upload the PDF you want to study.</p>
+                </div>
+                <div class="home-icon-badge">📚</div>
+            </div>
+
+            <label class="home-upload-zone" for="pdfInput">
+                <div class="home-upload-icon">↑</div>
+                <strong>Choose a PDF</strong>
+                <span>Lecture notes, textbook, assignment, etc.</span>
+            </label>
+
+            <input id="pdfInput" type="file" accept=".pdf,application/pdf">
+            <div id="fileStatus" class="home-status hidden"></div>
+
+            <div class="home-actions">
+                <button id="uploadBtn" class="btn primary home-full-btn" type="button">Upload &amp; Analyze</button>
+                <button id="clearBtn" class="btn home-clear-btn" type="button">Clear Document</button>
+            </div>
+
+            <p class="upload-note">Your PDF is processed locally by the app before relevant text is sent to the AI service for study assistance.</p>
+        </section>
+
+        <section class="card document-card">
+            <div class="home-upload-heading">
+                <div>
+                    <div class="section-kicker">STEP 2</div>
+                    <h2>Document Intelligence</h2>
+                    <p class="muted">Your indexed study material.</p>
+                </div>
+                <div class="home-icon-badge">🧠</div>
+            </div>
+
+            <div id="documentEmpty" class="empty-state">
+                <div class="empty-icon">📄</div>
+                <h3>No document loaded yet</h3>
+                <p>Choose a PDF and click <strong>Upload &amp; Analyze</strong> to start.</p>
+            </div>
+
+            <div id="documentInfo" class="document-info hidden">
+                <div class="document-file">
+                    <span class="file-dot">✓</span>
+                    <div>
+                        <small>INDEXED DOCUMENT</small>
+                        <div class="document-name" id="documentName">—</div>
+                    </div>
+                </div>
+                <div class="stats">
+                    <div><strong id="pageCount">0</strong><span>Pages</span></div>
+                    <div><strong id="chunkCount">0</strong><span>Chunks</span></div>
+                    <div><strong>RAG</strong><span>Enabled</span></div>
+                </div>
+                <div class="ready-note">✓ Ready for questions, quizzes, flashcards and study plans.</div>
+            </div>
+        </section>
+    </section>
+
+    <section class="section-title">
+        <div class="section-kicker">STEP 3</div>
+        <h2>Choose how you want to study</h2>
+    </section>
+
+    <section class="features">
+        <a class="card feature" href="/tutor">
+            <div class="feature-icon">💬</div>
+            <b>AI Tutor</b>
+            <small>Ask, Explain, ELI5, Exam and Teach Me modes.</small>
+            <span class="feature-link">Open Tutor →</span>
+        </a>
+        <a class="card feature" href="/quiz">
+            <div class="feature-icon">📝</div>
+            <b>Practice Quiz</b>
+            <small>Generate difficulty-based MCQs and review your mistakes.</small>
+            <span class="feature-link">Take a Quiz →</span>
+        </a>
+        <a class="card feature" href="/flashcards">
+            <div class="feature-icon">🗂</div>
+            <b>Flashcards</b>
+            <small>Turn important concepts into quick revision cards.</small>
+            <span class="feature-link">Review Cards →</span>
+        </a>
+        <a class="card feature" href="/study-plan">
+            <div class="feature-icon">🗓</div>
+            <b>Study Plan</b>
+            <small>Create a practical plan around your exam date and goals.</small>
+            <span class="feature-link">Build Plan →</span>
+        </a>
+    </section>
+</main>
+
+<footer>StudyRAG · AI-powered PDF learning assistant</footer>
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
